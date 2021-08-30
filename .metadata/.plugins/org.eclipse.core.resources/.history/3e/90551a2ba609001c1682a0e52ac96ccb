@@ -1,0 +1,6 @@
+package com.devs4j.qualifiers;
+
+volador
+public class Pajaro extends Animal implements {
+
+}

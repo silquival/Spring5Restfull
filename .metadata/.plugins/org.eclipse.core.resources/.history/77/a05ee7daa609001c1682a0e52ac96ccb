@@ -1,0 +1,29 @@
+package com.devs4j.di;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.devs4j.di.atribute.Coche;
+import com.devs4j.di.atribute.Motor;
+
+import ch.qos.logback.core.Context;
+
+@SpringBootApplication
+public class DependencyInjectionApplication {
+
+	public static void main(String[] args) {
+		
+		ConfigurableApplicationContext context =  SpringApplication.run(DependencyInjectionApplication.class, args);
+		
+		//Ejemplo coche
+//		Coche coche = context.getBean(Coche.class);
+//		System.out.println(coche);
+		
+//		Ejemplo animal
+		Perro perro = context.getBean(Perro.class)
+	
+	}
+	
+
+}

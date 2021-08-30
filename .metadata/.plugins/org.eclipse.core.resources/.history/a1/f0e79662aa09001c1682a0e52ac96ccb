@@ -1,0 +1,6 @@
+package com.devs4j.di.qualifiers;
+
+@Component
+public class Nido {
+
+}

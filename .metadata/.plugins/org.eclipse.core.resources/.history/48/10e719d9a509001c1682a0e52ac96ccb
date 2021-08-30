@@ -1,0 +1,6 @@
+package com.devs4j.qualifiers;
+
+@Component
+public class Perro extends Animal{
+
+}

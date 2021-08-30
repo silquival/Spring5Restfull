@@ -1,0 +1,12 @@
+package com.devs4j.di.atribute;
+
+public class Coche {
+
+	private String marca;
+	private Integer modelo;
+	
+	private Motor motor;
+	
+	
+	
+}
