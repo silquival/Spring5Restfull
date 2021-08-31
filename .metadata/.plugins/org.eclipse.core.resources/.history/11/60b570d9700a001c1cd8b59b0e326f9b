@@ -1,0 +1,8 @@
+package com.devs4j.di.autowired;
+
+public class AreaCalculatorService {
+	
+	@Autowired
+	private List<Figure> figures;
+
+}

@@ -1,0 +1,11 @@
+package com.devs4j.di.autowired;
+
+public class Square implements Figure{
+
+	@Override
+	public Double calculateArea() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

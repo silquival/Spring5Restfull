@@ -1,0 +1,10 @@
+package com.devs4j.di.profiles;
+
+public class QaEnviroment implements EnviromentService{
+
+	@Override
+	public String getEnviroment() {
+		return "Qa";
+	}
+
+}

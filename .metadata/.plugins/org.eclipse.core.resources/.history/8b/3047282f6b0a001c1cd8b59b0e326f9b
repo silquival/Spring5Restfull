@@ -1,0 +1,6 @@
+package com.devs4j.di.scopes;
+
+@Service
+public class EjemploScope {
+
+}

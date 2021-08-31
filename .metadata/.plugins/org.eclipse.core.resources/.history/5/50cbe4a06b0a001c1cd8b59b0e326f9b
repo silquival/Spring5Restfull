@@ -1,0 +1,8 @@
+package com.devs4j.di.scopes;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class EjemploScopeService {
+
+}
