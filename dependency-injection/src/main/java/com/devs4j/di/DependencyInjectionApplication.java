@@ -11,6 +11,10 @@ import org.springframework.expression.ExpressionParser;
 import org.springframework.expression.spel.standard.SpelExpressionParser;
 
 import com.devs4j.di.autowired.AreaCalculatorService;
+import com.devs4j.di.lifeCycle.ExplicitBean;
+import com.devs4j.di.lifeCycle.LifeCycleBean;
+
+import ch.qos.logback.core.spi.LifeCycle;
 
 @SpringBootApplication
 public class DependencyInjectionApplication {
@@ -22,15 +26,14 @@ public class DependencyInjectionApplication {
 		return "¡Dev4j rules!";
 	}
 	
+//	@Bean(initMethod="init", destroyMethod="destroy")
+//	public ExplicitBean getBean() {
+//		return new ExplicitBean();
+//	}
+	
 	public static void main(String[] args) {
 		
-//		ConfigurableApplicationContext context =  SpringApplication.run(DependencyInjectionApplication.class, args);
-//		AreaCalculatorService calculator = context.getBean(AreaCalculatorService.class);
-//		log.info("Area total == {}", calculator.calcAreas());
-		
-		ExpressionParser parser = new SpelExpressionParser();
-		Expression expression = parser.parseExpression("10 >= 20");
-		log.info("Result {}", expression.getValue());
+		ConfigurableApplicationContext context =  SpringApplication.run(DependencyInjectionApplication.class, args);
 	}
 	
 

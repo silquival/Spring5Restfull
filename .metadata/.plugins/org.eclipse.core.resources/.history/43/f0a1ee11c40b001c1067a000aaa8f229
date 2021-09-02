@@ -1,0 +1,8 @@
+package com.devs4j.di.lifeCycle;
+
+import org.springframework.beans.factory.config.BeanPostProcessor;
+
+public class Devs4jBeanPostProcessor implements BeanPostProcessor
+{
+
+}

@@ -21,12 +21,9 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Profile"/>
     <fullyQualifiedTypeName name="com.devs4j.di.profiles.EnviromentService"/>
     <fullyQualifiedTypeName name="com.devs4j.di.scopes.EjemploScopeService"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.devs4j.di.autowired.Figure"/>
     <fullyQualifiedTypeName name="com.devs4j.di.autowired.AreaCalculatorService"/>
@@ -41,4 +38,17 @@
     <fullyQualifiedTypeName name="org.springframework.expression.ExpressionParser"/>
     <fullyQualifiedTypeName name="org.springframework.expression.Expression"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.InnerClasses_attribute.Info"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanNameAware"/>
+    <fullyQualifiedTypeName name="com.devs4j.di.lifeCycle.LifeCycleBean"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.spi.LifeCycle"/>
+    <fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
+    <fullyQualifiedTypeName name="com.devs4j.di.lifeCycle.ExplicitBean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
+    <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.config.BeanPostProcessor"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 </qualifiedTypeNameHistroy>
