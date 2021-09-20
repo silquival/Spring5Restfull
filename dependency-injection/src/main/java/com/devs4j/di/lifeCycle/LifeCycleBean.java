@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-//@Lazy -- si el bean es lazy no se inicializará a menos que se inyecte
+@Lazy // si el bean es lazy no se inicializará a menos que se inyecte
 //@Scope("prototype") -- recordemos que pre destroy no se ejecuta para beans prototype
 public class LifeCycleBean implements BeanNameAware,InitializingBean,DisposableBean{
 

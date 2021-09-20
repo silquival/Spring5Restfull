@@ -10,6 +10,7 @@ import org.springframework.expression.Expression;
 import org.springframework.expression.ExpressionParser;
 import org.springframework.expression.spel.standard.SpelExpressionParser;
 
+import com.devs4j.di.aop.TargetObject;
 import com.devs4j.di.autowired.AreaCalculatorService;
 import com.devs4j.di.lifeCycle.ExplicitBean;
 import com.devs4j.di.lifeCycle.LifeCycleBean;
@@ -34,6 +35,9 @@ public class DependencyInjectionApplication {
 	public static void main(String[] args) {
 		
 		ConfigurableApplicationContext context =  SpringApplication.run(DependencyInjectionApplication.class, args);
+		TargetObject targetObject = context.getBean(TargetObject.class);
+		targetObject.hello("Hello world ");
+		targetObject.foo();
 	}
 	
 
